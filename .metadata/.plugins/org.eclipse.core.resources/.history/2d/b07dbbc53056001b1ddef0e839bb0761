@@ -1,0 +1,6 @@
+package study.java.mvmanagement.model;
+
+public class Mvdi_rel {
+	int mcode;
+	int dcode;
+}

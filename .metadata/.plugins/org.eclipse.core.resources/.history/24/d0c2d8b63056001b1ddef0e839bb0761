@@ -1,0 +1,7 @@
+package study.java.mvmanagement.model;
+
+public class Mvac_rel {
+	int mcode;
+	int acode;
+	
+}

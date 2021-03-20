@@ -1,0 +1,5 @@
+package study.java.mvmanagement.model;
+
+public class Actor {
+
+}

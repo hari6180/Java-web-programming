@@ -1,0 +1,5 @@
+2021-01-14 17:46:48,315 DEBUG [org.apache.ibatis.logging.LogFactory] Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2021-01-14 17:46:48,347 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-01-14 17:46:48,347 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-01-14 17:46:48,347 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-01-14 17:46:48,347 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.

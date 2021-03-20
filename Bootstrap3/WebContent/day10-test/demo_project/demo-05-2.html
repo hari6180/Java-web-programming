@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>My universe</title>
+
+    <!-- 모바일 웹 페이지 설정 -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+
+    <!-- 나눔고딕 웹 폰트 적용 -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nanumfont.css" />
+
+    <script src="https://kit.fontawesome.com/f27ac0bcc1.js" crossorigin="anonymous"></script>
+
+    <!-- 반응형 웹을 지원하지 않을 경우 -->
+    <!-- <link rel="stylesheet" href="assets/css/non-responsive.css" /> -->
+
+    <!-- IE8 이하 버전 지원 -->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="assets/js/html5shiv.js"></script>
+      <script type="text/javascript" src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- IE10 반응형 웹 버그 보완 -->
+    <!--[if gt IE 9]>
+      <link rel="stylesheet" type="text/css" href="assets/css/ie10.css" />
+      <script type="text/javascript" src="assets/js/ie10.js"></script>
+    <![endif]-->
+    <style>
+      body {
+        padding-top: 60px;
+        padding-bottom: 20px;
+        margin: 0;
+      }
+
+      p {
+        line-height: 200%;
+      }
+
+      /** 최상단 버튼 */
+      .fa-hand-point-up {
+        position: fixed;
+        bottom: 20px;
+        font-size: 50px;
+        right: 100px;
+        color: slategray;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- 메뉴바 -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <!-- 배경을 제외한 메뉴 항목의 영역 제한 -->
+      <div class="container">
+        <!-- 로고 영역 -->
+        <div class="navbar-header">
+          <!-- 반응형 메뉴 버튼 -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">메뉴열기</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- // 반응형 메뉴 버튼 -->
+          <!-- 로고 -->
+          <a class="navbar-brand" href="demo-05.html"><i class="fas fa-globe-asia"></i> <b>my universe</b></a>
+          <!-- // 로고 -->
+        </div>
+        <!-- // 로고 영역 -->
+        <!-- 메뉴 영역 -->
+        <div class="navbar-collapse collapse">
+          <!-- 메뉴 항목 -->
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">JAVA</a></li>
+            <li><a href="#">JSP</a></li>
+            <li><a href="#">MySQL</a></li>
+            <li><a href="#">HTML5</a></li>
+            <li><a href="#">CSS3</a></li>
+            <li><a href="#">Bootstrap3</a></li>
+          </ul>
+          <!-- // 메뉴 항목 -->
+        </div>
+        <!-- // 메뉴 영역 -->
+      </div>
+      <!-- // 배경을 제외한 메뉴 항목의 영역 제한 -->
+    </div>
+    <!-- // 메뉴바 -->
+
+    <!--전체 레이아웃 -->
+    <div class="layout container">
+      <!-- 내용 영역 -->
+      <div class="container col-md-9">
+        <h1>JAVA 기초</h1>
+        <hr />
+        <h3>용어 정리</h3>
+        <hr />
+        <div class="test clearfix">
+          <img class="pull-left" src="img/java.jpg" width="auto" height="100" />
+          <p class="pull-left">
+            코덱 = 인코딩 + 디코딩
+            <br />
+            인코딩 : 사람 말 → 컴퓨터 말
+            <br />
+            디코딩 : 컴퓨터 말 → 사람말
+            <br />
+            저급 ~ 고급 언어 존재. C는 중간 점. 대부분 알고 있는 JS, python, JAVA는 고급언어임.
+            <br />
+            기준 : 인간이 알아들을 수 있느냐?
+          </p>
+        </div>
+        <hr />
+        <div class="clearfix">
+          <h3>자바 특징</h3>
+          <hr />
+          <p>
+            1. 이식성이 매우 높은 언어 : 소스코드파일 → 한번의 컴파일 → 클래스파일 → 윈도우, 리눅스, 맥 가리지 않고 다 가능 <br />
+            2. 객체 지향 언어(OOP, Object Oriented Programming) : 작은 파일부터 만들고, 조합해 전체 프로그램을 완성하는 기법<br />
+            - 객체? 사물 개념. ex) 모니터 바라보는 속성이 있어야함. 인치, 버튼, 해상도 등.<br />
+            기능 - 디스플레이, 사운드, 티비 기능 등 → 클래스화 해서 쓰는 것.<br />
+            3. 캡슐화, 상속, 다형성 기능을 완벽하게 지원 : 상속 → 재활용. 부품들을 모아서 만든다? <br />
+            4. 메모리 자동 관리 기능이 강력해짐<br />
+            - 사용하지 않는 객체를 자동으로 메모리에서 제거 : GC(garbage collecter) - 핵심 기능 코드에 집중할 수 있도록 하는 기능 <br />
+            - C,C++은 메모리를 개발자가 직접 조작을 해야 함<br />
+            5. 함수적 스타일 코딩 지원 - 람다식 지원. <br />
+            - 람다식으로 인하여 코드 간결하게 작성 가능 (10줄 쓸걸 1줄로)<br />
+            - 컬렉션(객체의 집합) 요소를 필터링, 매핑, 그룹핑, 집계 처리 등 저용량 코드로 고성능을 냄<br />
+            6. 웹, 앱 등 다양한 애플리케이션 프로그램의 개발 가능 <br />
+            7. 개발 진행중, JDK(JAVA development kit) 1.12까지 발표 <br />
+            8. 멀티스레드 기능 구현이 쉬워짐 (스레드, 작업단위), 대용량 작업, 동시 여러기능 가능.<br />
+            9. 동적 로딩(Dynamic Loading) 지원 : 미리 객체를 만들어 놓지 않고 필요한 시점에 동적 로딩, 유지 보수시 특정 객체만 쉽게 수정 및
+            교체 가능<br />
+            10. 풍부하고 엄청난 오픈소스 라이브러리를 제공
+          </p>
+        </div>
+        <hr />
+
+        <h3>자바 프로그램 개발의 순서</h3>
+        <hr />
+        <p>
+          1. 프로그램 시작점 : 메인 - 오로지 하나. _____() : 메소드, 함수<br />
+          2. 주석 : //, 어차피 기억못하니까 줄마다 주석쳐서 설명달아놓을 것 /* ~ */ 범위 주석<br />
+          3. 실행문과 세미콜론(;) : 변수 선언, 값저장, 메소드 호출에 해당하는 코드. 실행문 끝에는 반드시 ; 을 붙여 실행문의 끝 표시
+        </p>
+        <hr />
+        <h3>eclipse</h3>
+        <hr />
+        <p>
+          - 자바 통합개발환경(IDE), IBM에서 개발.<br />
+          - 지속적으로 버전업, 배포, 플러그인 프로그램 설치 가능<br />
+          - 안드로이드, 스프링, JSP, C++ 등 통합개발환경 구축 가능<br />
+          - 자바로 개발된 도구임 - 워크스페이스 : 프로젝트가 기본적으로 저장되는 폴더. 상황별로 다르게 지정 가능.<br />
+          - metadata 폴더 : 자동적으로 생성. 메타데이터 저장, 삭제시 이클립스 재실행하면 초기상태로 됨.<br />
+          (메타데이터 : 폰트 설정 등등) - 아파트 동이 자바 작업 폴더, practice폴더는 몇호인지, 안에 방은 패키지 파일, 방안의 가구는 자바
+          파일들.
+        </p>
+      </div>
+      <hr />
+      <!-- // 내용 영역 -->
+      <!-- 스마트폰 이용시 공백 -->
+      <div class="hidden-md hidden-lg"><br /></div>
+      <!-- 메뉴드롭다운 -->
+      <div class="col-md-3" id="accordion">
+        <a class="list-group-item" data-toggle="collapse" data-parent="#accordion" href="#collapse1">Hello</a>
+        <div id="collapse1" class="panel-collapse collapse">
+          <a href="demo-05-1.html" style="text-decoration: none">
+            <div class="panel-body list-group-item">
+              <img src="img/profile.jpg" width="100%" height="100%" />
+              <h4>My profile</h4>
+              무에서 유를 창조하는 것, 코딩은 어쩌면 예술의 영역이 아닐까요.
+            </div></a
+          >
+        </div>
+        <a class="list-group-item active" data-toggle="collapse" data-parent="#accordion" href="#collapse2">JAVA</a>
+        <div id="collapse2" class="panel-collapse collapse">
+          <div class="panel-body list-group-item">
+            <img src="img/menu-2.jpg" width="100%" height="100%" />
+            <h4>JAVA</h4>
+            현재 보고 계신 페이지입니다.
+          </div>
+        </div>
+        <a class="list-group-item" data-toggle="collapse" data-parent="#accordion" href="#collapse3">JSP</a>
+        <div id="collapse3" class="panel-collapse collapse">
+          <div class="panel-body list-group-item">
+            <img src="img/menu-3.jpg" width="100%" height="100%" />
+            <h4>제목</h4>
+            세 번째 항목의 내용입니다.
+          </div>
+        </div>
+        <a class="list-group-item" data-toggle="collapse" data-parent="#accordion" href="#collapse4">MySQL</a>
+        <div id="collapse4" class="panel-collapse collapse">
+          <div class="panel-body list-group-item">
+            <img src="img/menu-4.jpg" width="100%" height="100%" />
+            <h4>제목</h4>
+            네 번째 항목의 내용입니다.
+          </div>
+        </div>
+        <a class="list-group-item" data-toggle="collapse" data-parent="#accordion" href="#collapse5">HTML5</a>
+        <div id="collapse5" class="panel-collapse collapse">
+          <div class="panel-body list-group-item">
+            <img src="img/menu-5.jpg" width="100%" height="100%" />
+            <h4>제목</h4>
+            다섯 번째 항목의 내용입니다.
+          </div>
+        </div>
+        <a class="list-group-item" data-toggle="collapse" data-parent="#accordion" href="#collapse6">CSS3</a>
+        <div id="collapse6" class="panel-collapse collapse">
+          <div class="panel-body list-group-item">
+            <img src="img/menu-6.jpg" width="100%" height="100%" />
+            <h4>제목</h4>
+            여섯 번째 항목의 내용입니다.
+          </div>
+        </div>
+        <a class="list-group-item" data-toggle="collapse" data-parent="#accordion" href="#collapse7">Bootstrap3</a>
+        <div id="collapse7" class="panel-collapse collapse">
+          <div class="panel-body list-group-item">
+            <img src="img/menu-1.jpg" width="100%" height="100%" />
+            <h4>제목</h4>
+            일곱 번째 항목의 내용입니다.
+          </div>
+        </div>
+      </div>
+      <!-- // 메뉴 드롭다운 -->
+    </div>
+
+    <!-- 푸터 -->
+    <div class="container">
+      <footer>
+        <hr />
+        <address>Copyright&copy;2020. <a href="#">hariworld</a>. All right resurved</address>
+        <p>
+          <a href="#"><i class="far fa-hand-point-up"></i></a>
+        </p>
+      </footer>
+    </div>
+    <!-- // 푸터 -->
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+
+/**
+ * @FileName : Main05.java
+ * @Author : Hari
+ * @Description : 데이터 단일행 조회 기능을 수행하는 메인
+ */
+public class Main05 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

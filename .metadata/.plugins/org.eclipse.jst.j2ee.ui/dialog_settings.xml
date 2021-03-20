@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="J2EE_EXPORT_OVERWRITE" value="true"/>
+	<item key="J2EE_EXPORT_SOURCE" value="true"/>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="Apache Tomcat v8.5"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="D:\이젠IT\ROOT.war"/>
+		<item value="D:\이젠IT\Test.war"/>
+		<item value="D:\44-MySchoolEx.war"/>
+		<item value="D:\41-HelloJSP.war"/>
+		<item value="D:\Hello.war"/>
+	</list>
+	<list key="J2EE_IMPORT_null">
+		<item value="D:\이젠IT\수업자료\Linux\교재\06-Linux(CentOS)\(학생용) Linux+Hadoop#05-FTP,DB,Tomcat\(학생용) Linux+Hadoop#05-FTP,DB,Tomcat\HelloWorld.war"/>
+		<item value="D:\44-MySchoolEx.war"/>
+		<item value="D:\day06.war"/>
+	</list>
+</section>

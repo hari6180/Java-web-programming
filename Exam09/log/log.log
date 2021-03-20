@@ -1,0 +1,15 @@
+2020-11-03 23:40:16,417 DEBUG [org.apache.ibatis.logging.LogFactory] Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2020-11-03 23:40:16,435 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2020-11-03 23:40:16,435 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2020-11-03 23:40:16,435 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2020-11-03 23:40:16,435 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2020-11-03 23:40:16,495 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Opening JDBC Connection
+2020-11-03 23:40:18,048 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] Created connection 996125997.
+2020-11-03 23:40:18,048 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3b5fad2d]
+2020-11-03 23:40:18,053 DEBUG [UsersMapper.out] ==>  Preparing: DELETE FROM users WHERE id=?; 
+2020-11-03 23:40:18,085 DEBUG [UsersMapper.out] ==> Parameters: 4(Integer)
+2020-11-03 23:40:18,087 DEBUG [UsersMapper.out] <==    Updates: 1
+2020-11-03 23:40:18,087 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3b5fad2d]
+2020-11-03 23:40:18,100 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3b5fad2d]
+2020-11-03 23:40:18,101 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3b5fad2d]
+2020-11-03 23:40:18,101 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] Returned connection 996125997 to pool.

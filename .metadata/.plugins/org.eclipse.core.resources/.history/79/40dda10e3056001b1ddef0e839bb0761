@@ -1,0 +1,14 @@
+package study.java.mvmanagement.model;
+
+public class Movie {
+	int mcode;
+	String titile;
+	String made_year;
+	String country;
+	String running_time;
+	String opendate;
+	String producer;
+	String distributor;
+	int dcode;
+	int acode;
+}

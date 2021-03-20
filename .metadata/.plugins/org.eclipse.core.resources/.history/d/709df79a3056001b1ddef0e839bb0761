@@ -1,0 +1,13 @@
+package study.java.mvmanagement.model;
+
+public class Actor {
+	int acode;
+	String birthdate;
+	String name;
+	String gender;
+
+	String birthplace;
+	String education;
+	int mcode;
+
+}
